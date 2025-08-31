@@ -1,4 +1,4 @@
-const backendUrl = "http://localhost:5000/dados"; // ou IP local se estiver rodando em outro dispositivo
+const backendUrl = "http://192.168.1.96:5000/dados";
 
 async function carregarDados() {
   const tabela = document.querySelector("#tabela tbody");
